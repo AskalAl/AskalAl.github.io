@@ -154,7 +154,7 @@
             cd = document.querySelectorAll(elt);
 
         targetTmpDate = new Date(
-            parameters.year + 1,     // Because January is 0 and December is 11
+            parameters.year ,     // Because January is 0 and December is 11
             parameters.month - 1,    // Because January is 0 and December is 11
             parameters.day,
             parameters.hours,
